@@ -1,0 +1,66 @@
+.modal:nth-of-type(even) {
+    z-index: 1062 !important;
+}
+.modal-backdrop.show:nth-of-type(even) {
+    z-index: 1061 !important;
+}
+.modal-backdrop {
+    visibility: hidden !important;
+}
+.modal.in {
+    background-color: rgba(0,0,0,0.5);
+}
+.outer-friendlist{
+    height: 81vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 20px;
+    overflow: auto;
+}
+.outer-comments{
+    height: 85vh;
+    width: 400px;
+    background-color: white;
+}
+.inner-comments{
+    height: 68vh;
+    width: 400px;
+    background-color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.outer-postcomment{
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+
+.ofitem{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 30px;
+}
+
+.poitem{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.pobtn{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50px;
+    color: black;
+    /* filter: drop-shadow(1px 2px 2px rgb(0, 0, 0, 0.5)); */
+}
+
+.pobtn:hover{
+    transform: scale(1.1,1.1);
+    color: rgb(64, 64, 235);
+}
+
+
+button:focus{
+    outline: none;
+}

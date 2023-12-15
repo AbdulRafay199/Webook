@@ -1,0 +1,65 @@
+.searchbar{
+    border: 0px transparent;
+    border-radius: 20px;
+    width: 25vw;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-indent: 20px;
+}
+
+.navbg{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.searchbar::placeholder{
+    background-image: url('../webook-searchbar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+}
+
+.searchitem{
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px;
+    margin-left: 40.5vw;
+    background-color: rgb(255, 255, 255);
+    max-height: 40vh;
+    overflow: auto;
+    z-index: 999;
+}
+.locations{
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px;
+    /* margin-left: 40.5vw; */
+    background-color: rgb(255, 255, 255);
+    max-height: 40vh;
+    overflow: auto;
+    z-index: 999;
+}
+
+.useritem{
+    background-color: white;
+}
+/* https://img.icons8.com/material-two-tone/24/000000/search.png */
+input {
+    border: none;
+    outline: none;
+}
+
+.followbtn{
+    margin: 0px;
+    background-color: white;
+    border: 1px solid rgb(151, 75, 151);
+    color: rgb(151, 75, 151);
+    border-radius: 20px;
+    font-size: 70%;
+    justify-content: end;
+}
+
+.followbtn:hover{
+    background-color: rgb(151, 75, 151);
+    border: 1px solid white;
+    color: white;
+    transition: all 0.5s ease;
+}
